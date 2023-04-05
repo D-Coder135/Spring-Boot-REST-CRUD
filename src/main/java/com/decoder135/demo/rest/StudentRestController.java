@@ -2,6 +2,7 @@ package com.decoder135.demo.rest;
 
 import com.decoder135.demo.entity.Student;
 import jakarta.annotation.PostConstruct;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -57,6 +58,9 @@ public class StudentRestController {
         // create a StudentErrorResponse
 
         StudentErrorResponse error = new StudentErrorResponse();
+
+        error.setStatus(HttpStatus.NOT_FOUND.value());
+
 
         // return the ResponseEntity
 
