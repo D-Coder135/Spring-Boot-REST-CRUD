@@ -54,5 +54,9 @@ public class StudentRestController {
     @ExceptionHandler
     public ResponseEntity<StudentErrorResponse> handleException(StudentNotFoundException exception) {
 
+        // create a StudentErrorResponse
+
+        // return the ResponseEntity
+
     }
 }
