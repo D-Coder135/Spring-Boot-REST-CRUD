@@ -18,6 +18,7 @@ public class StudentRestController {
     public List<Student> getStudents() {
 
         List<Student> theStudents = new ArrayList<>();
+        theStudents.add(new Student("Devansh", "Shukla"));
 
         return null;
     }
