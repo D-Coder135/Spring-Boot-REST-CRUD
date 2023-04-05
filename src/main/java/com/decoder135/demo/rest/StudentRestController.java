@@ -19,7 +19,8 @@ public class StudentRestController {
 
     @PostConstruct
     public void loadStudentData() {
-        List<Student> theStudents = new ArrayList<>();
+        theStudents = new ArrayList<>();
+
         theStudents.add(new Student("Devansh", "Shukla"));
         theStudents.add(new Student("Vishad", "Vashishtha"));
         theStudents.add(new Student("Ashutosh", "Chaubey"));
@@ -29,7 +30,8 @@ public class StudentRestController {
 
     @GetMapping("/students")
     public List<Student> getStudents() {
-
         return theStudents;
     }
+
+    // define endpoint for "/students/{studentId}" - return student at index
 }
