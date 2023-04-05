@@ -1,6 +1,7 @@
 package com.decoder135.demo.rest;
 
 import com.decoder135.demo.entity.Student;
+import jakarta.annotation.PostConstruct;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ public class StudentRestController {
 
     // define @PostConstruct to load the student data...only once!
 
+    @PostConstruct
     public void loadStudentData() {
 
     }
