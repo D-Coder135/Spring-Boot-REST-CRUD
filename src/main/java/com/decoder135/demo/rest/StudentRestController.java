@@ -41,6 +41,8 @@ public class StudentRestController {
 
         // just index into the list...keep it simple for now
 
+        // check the studentId against the list size
+
         return theStudents.get(studentId);
     }
 }
