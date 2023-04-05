@@ -12,6 +12,8 @@ import java.util.List;
 @RequestMapping("/api")
 public class StudentRestController {
 
+    private List<Student> theStudents;
+
     // define an endpoint for "/students" - return a list of students
 
     @GetMapping("/students")
