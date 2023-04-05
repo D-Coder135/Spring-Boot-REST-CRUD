@@ -13,6 +13,6 @@ public class StudentRestController {
     // define an endpoint for "/students" - return a list of students
 
     public List<Student> getStudents() {
-
+        return null;
     }
 }
