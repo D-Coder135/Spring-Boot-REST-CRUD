@@ -16,6 +16,10 @@ public class StudentRestController {
 
     // define @PostConstruct to load the student data...only once!
 
+    public void loadStudentData() {
+
+    }
+
     // define an endpoint for "/students" - return a list of students
 
     @GetMapping("/students")
