@@ -60,7 +60,7 @@ public class StudentRestController {
         StudentErrorResponse error = new StudentErrorResponse();
 
         error.setStatus(HttpStatus.NOT_FOUND.value());
-
+        error.setMessage(exception.getMessage());
 
         // return the ResponseEntity
 
