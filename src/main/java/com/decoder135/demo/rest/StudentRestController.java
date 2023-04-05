@@ -22,6 +22,6 @@ public class StudentRestController {
         theStudents.add(new Student("Vishad", "Vashishtha"));
         theStudents.add(new Student("Ashutosh", "Chaubey"));
 
-        return null;
+        return theStudents;
     }
 }
