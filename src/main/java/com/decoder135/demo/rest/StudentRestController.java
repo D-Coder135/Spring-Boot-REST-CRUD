@@ -36,4 +36,7 @@ public class StudentRestController {
     // define endpoint for "/students/{studentId}" - return student at index
 
     @GetMapping("/students/{studentId}")
+    public Student getStudentDetailsById() {
+
+    }
 }
