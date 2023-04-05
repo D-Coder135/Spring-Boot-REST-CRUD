@@ -43,6 +43,10 @@ public class StudentRestController {
 
         // check the studentId against the list size
 
+        if ((studentId >= theStudents.size()) || (studentId < 0)) {
+
+        }
+
         return theStudents.get(studentId);
     }
 }
