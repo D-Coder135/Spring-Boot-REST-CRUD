@@ -56,6 +56,8 @@ public class StudentRestController {
 
         // create a StudentErrorResponse
 
+        StudentErrorResponse error = new StudentErrorResponse();
+
         // return the ResponseEntity
 
     }
