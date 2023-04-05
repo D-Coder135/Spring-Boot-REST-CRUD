@@ -8,4 +8,8 @@ public class StudentErrorResponse {
 
     private long timeStamp;
 
+    public StudentErrorResponse() {
+
+    }
+
 }
