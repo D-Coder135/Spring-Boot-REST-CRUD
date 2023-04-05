@@ -49,4 +49,7 @@ public class StudentRestController {
 
         return theStudents.get(studentId);
     }
+
+
+    // Add an exception handler using @ExceptionHandler
 }
