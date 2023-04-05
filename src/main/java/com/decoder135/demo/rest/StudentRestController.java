@@ -61,6 +61,7 @@ public class StudentRestController {
 
         error.setStatus(HttpStatus.NOT_FOUND.value());
         error.setMessage(exception.getMessage());
+        error.setTimeStamp(System.currentTimeMillis());
 
         // return the ResponseEntity
 
